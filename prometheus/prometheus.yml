@@ -19,5 +19,5 @@ scrape_configs:
   - job_name: 'server_monitor'
     static_configs:
     - targets: 
-      - 'localhost:9100'
+      - 'nodeexp:9100'
       - 'docker01.goergen.pw:9100'
